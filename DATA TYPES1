@@ -1,0 +1,50 @@
+Data Types:
+1)Dynamic type language
+Two types:
+1.Primitive data type
+2.Non- Primitive data type:objects,arrays
+To check the data type -typeOf
+1.	Primitive data type: predefined ;we can store single value
+
+a. Numbers: integer, floats
+b. String: stream of characters  enclosed in quotes
+--single, double, backtrick  quotes;
+c. Boolean: true or false
+d .Null: empty value or no value
+e. undefined: declare variable with no value
+1.Numbers:
+Ex:1,-1,-4.4,5.6
+
+let a = 3.5;
+let b = '-3.5';
+
+console.log(typeof(a)); // Logs: "number"
+document.write(typeof(a)); // Displays: "number"
+document.write(typeof(b)); // Displays: "string"
+
+
+String :Stream of characters  enclosed in quotes
+--Single ,double , backtick quote;
+Single and double works same
+--backtick introduced in ES6 varsion
+ //data types:
+    let a = 3.5;
+let b = 3.5;
+
+console.log("hi + a + b"); // Logs the string "hi + a + b"
+console.log(hi + ${a + b}); // Corrects the template literal to include the sum of a and b
+---it provides extra funcationality; we can insert  the variable in to them
+
+String concatenation:
+//i am ramuJohn , my age is 18 years old  :expected output
+let a="ramu"
+let b="Sri"
+let age=18
+let greeting = i am ${a+" "+b } , my age is ${age} years old
+console.log(greeting) 
+
+ex2:
+a=sai
+b=kumar
+
+react Student= sai kumar
